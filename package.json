@@ -1,7 +1,7 @@
 {
   "name": "dtsfmt",
   "displayName": "dtsfmt",
-  "description": "Format Device Tree files",
+  "description": "Format DeviceTree files using dtsfmt",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.74.0"
@@ -15,9 +15,14 @@
   "categories": [
     "Formatters"
   ],
+  "activationEvents": [
+    "onLanguage:dts"
+  ],
   "main": "./out/extension.js",
+  "icon": "resources/icon.png",
   "files": [
     "out/**/*",
+    "resources/**/*",
     "LICENSE"
   ],
   "scripts": {
