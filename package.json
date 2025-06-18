@@ -2,7 +2,7 @@
   "name": "dtsfmt",
   "displayName": "dtsfmt",
   "description": "Format DeviceTree files using dtsfmt",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.74.0"
   },
